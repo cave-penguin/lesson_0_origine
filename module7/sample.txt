@@ -1,0 +1,1 @@
+Certainly! In Python, a function is a reusable block of code that performs a specific task. Functions are used to break a program into smaller modular chunks, which makes the code more organized, readable, and easier to maintain.
