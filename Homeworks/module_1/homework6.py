@@ -6,7 +6,7 @@ my_dict.update({"Planet": "Earth", "Post index": 123321})
 name = my_dict.pop("Name")
 print("Deleted value:", name)
 print("Modified dictionary:", my_dict)
-
+print()
 my_set = {1, 1, "roof", "wall", "wall", (1, 2), False, False}
 print("Set:", my_set)
 my_set.add(8)
