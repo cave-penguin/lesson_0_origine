@@ -10,7 +10,9 @@ output_size = 1
 np.random.seed(0)
 
 weights_input_hidden = np.random.rand(input_size, hidden_size)
+
 weights_hidden_output = np.random.rand(hidden_size, output_size)
+
 
 bias_hidden = np.random.rand(hidden_size)
 bias_output = np.random.rand(output_size)
@@ -25,12 +27,12 @@ def sigmoid_derivative(x):
 
 
 learning_rate = 0.1
-epochs = 10000
+epochs = 10
 
 for epoch in range(epochs):
-    print(epoch)
     hidden_layer_input = np.dot(X, weights_input_hidden) + bias_hidden
     hidden_layer_output = sigmoid(hidden_layer_input)
+    print(hidden_layer_input)
 
     output_layer_input = (
         np.dot(hidden_layer_output, weights_hidden_output) + bias_output
