@@ -92,7 +92,7 @@ def all_variants(text):
 # Пример использования
 a = all_variants("abc")
 for i in a:
-    print(i)
+    print(i, end=' ')
 
 
 # def generate_combinations(s):
